@@ -45,11 +45,15 @@ Future buildProtobufMessages(List<String> args) {
 
 
 
-const IRIS_PROTO_BUFFER_MESSAGES = "lib/generated/proto/messages.dart";
-
+/// The directory where all iris services are defined.
+/// This is used by iris to know when files haven been changed.
 const IRIS_SERVICES_DIR = "lib/services/";
 
+/// The output directory for the compiled iris files.
 const IRIS_OUT = "lib/generated/iris/";
+
+/// The location of the compiled protocol buffer messages.
+const IRIS_PROTO_BUFFER_MESSAGES = "lib/generated/proto/messages.dart";
 
 buildRemoteServices(args) {
   return iris_builder.build(
