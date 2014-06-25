@@ -13,8 +13,9 @@ import '../generated/proto/messages.dart';
 class TextService extends Service {
 
   /**
-   * A procedure is a method that takes a [Context] object as first object,
-   * and has the [Procedure] annotation.
+   * A procedure is a method that takes a [Context] object (which contains the
+   * request, cookies, session data, etc...) as first argument, and has the
+   * [Procedure] annotation.
    *
    * It can optionally take a protocol buffer message as argument, and
    * return one.
