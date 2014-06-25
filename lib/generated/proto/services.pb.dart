@@ -8,7 +8,7 @@ import 'package:protobuf/protobuf.dart';
 
 class TextToUppercaseRequest extends GeneratedMessage {
   static final BuilderInfo _i = new BuilderInfo('TextToUppercaseRequest')
-    ..a(2, 'text', GeneratedMessage.QS)
+    ..a(1, 'text', GeneratedMessage.QS)
   ;
 
   TextToUppercaseRequest() : super();
@@ -17,15 +17,15 @@ class TextToUppercaseRequest extends GeneratedMessage {
   TextToUppercaseRequest clone() => new TextToUppercaseRequest()..mergeFromMessage(this);
   BuilderInfo get info_ => _i;
 
-  String get text => getField(2);
-  void set text(String v) { setField(2, v); }
-  bool hasText() => hasField(2);
-  void clearText() => clearField(2);
+  String get text => getField(1);
+  void set text(String v) { setField(1, v); }
+  bool hasText() => hasField(1);
+  void clearText() => clearField(1);
 }
 
 class UppercaseText extends GeneratedMessage {
   static final BuilderInfo _i = new BuilderInfo('UppercaseText')
-    ..a(2, 'text', GeneratedMessage.QS)
+    ..a(1, 'text', GeneratedMessage.QS)
   ;
 
   UppercaseText() : super();
@@ -34,9 +34,9 @@ class UppercaseText extends GeneratedMessage {
   UppercaseText clone() => new UppercaseText()..mergeFromMessage(this);
   BuilderInfo get info_ => _i;
 
-  String get text => getField(2);
-  void set text(String v) { setField(2, v); }
-  bool hasText() => hasField(2);
-  void clearText() => clearField(2);
+  String get text => getField(1);
+  void set text(String v) { setField(1, v); }
+  bool hasText() => hasField(1);
+  void clearText() => clearField(1);
 }
 

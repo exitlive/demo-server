@@ -2,7 +2,7 @@
 // This is the message sent to the server
 message TextToUppercaseRequest {
 
-  required string text = 2;
+  required string text = 1;
 
 }
 
@@ -10,6 +10,6 @@ message TextToUppercaseRequest {
 // to the client.
 message UppercaseText {
 
-  required string text = 2;
+  required string text = 1;
 
 }
