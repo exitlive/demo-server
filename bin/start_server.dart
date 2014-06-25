@@ -8,5 +8,5 @@ import '../lib/services/services.dart';
 void main() {
   getIris().startServers()
       .then((_) => print('Server started successfully'))
-      .catchError((_) => print('Oups, something went wrong'));
+      .catchError((err) => print('Oups, something went wrong: $err'));
 }
