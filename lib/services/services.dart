@@ -20,7 +20,7 @@ class TextService extends Service {
    * return one.
    */
   @anno.Procedure()
-  Future<UppercaseText> convertToUppercase(Context context, TextToUppercaseRequest request) {
+  Future<UppercaseText> convertToUpperCase(Context context, TextToUppercaseRequest request) {
 
     print('Converting "${request.text}" to uppercase now.');
 
