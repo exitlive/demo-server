@@ -34,7 +34,8 @@ const PROTO_ROOT = 'proto';
 /// The directory to output the compiled protobuffer messages
 const PROTO_OUT = 'lib/generated/proto';
 
-/// The name of a manifest library for the compiled protobuffers which will be generated in the PROTO_OUT directory
+/// The name of a manifest library for the compiled protobuffers which will be
+/// generated in the PROTO_OUT directory
 const MANIFEST_LIB = 'messages';
 
 Future buildProtobufMessages(List<String> args) {
