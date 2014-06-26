@@ -1,6 +1,6 @@
 
 // This is the message sent to the server
-message TextToUppercaseRequest {
+message TextToUpperCaseRequest {
 
   required string text = 1;
 
@@ -8,7 +8,7 @@ message TextToUppercaseRequest {
 
 // This is the message the server sends back
 // to the client.
-message UppercaseText {
+message UpperCaseText {
 
   required string text = 1;
 

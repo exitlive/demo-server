@@ -11,7 +11,7 @@ class TextService extends Service {
 
   TextService(IrisClient client) : super(client);
 
-  Future<UppercaseText> convertToUpperCase(TextToUppercaseRequest requestMessage) => client.dispatch('/TextService.convertToUpperCase', requestMessage, (List<int> bytes) => new UppercaseText.fromBuffer(bytes), true);
+  Future<UpperCaseText> convertToUpperCase(TextToUpperCaseRequest requestMessage) => client.dispatch('/TextService.convertToUpperCase', requestMessage, (List<int> bytes) => new UpperCaseText.fromBuffer(bytes), true);
 
 }
 

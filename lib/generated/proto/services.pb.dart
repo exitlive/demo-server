@@ -6,15 +6,15 @@ library pb_services;
 import 'package:fixnum/fixnum.dart';
 import 'package:protobuf/protobuf.dart';
 
-class TextToUppercaseRequest extends GeneratedMessage {
-  static final BuilderInfo _i = new BuilderInfo('TextToUppercaseRequest')
+class TextToUpperCaseRequest extends GeneratedMessage {
+  static final BuilderInfo _i = new BuilderInfo('TextToUpperCaseRequest')
     ..a(1, 'text', GeneratedMessage.QS)
   ;
 
-  TextToUppercaseRequest() : super();
-  TextToUppercaseRequest.fromBuffer(List<int> i, [ExtensionRegistry r = ExtensionRegistry.EMPTY]) : super.fromBuffer(i, r);
-  TextToUppercaseRequest.fromJson(String i, [ExtensionRegistry r = ExtensionRegistry.EMPTY]) : super.fromJson(i, r);
-  TextToUppercaseRequest clone() => new TextToUppercaseRequest()..mergeFromMessage(this);
+  TextToUpperCaseRequest() : super();
+  TextToUpperCaseRequest.fromBuffer(List<int> i, [ExtensionRegistry r = ExtensionRegistry.EMPTY]) : super.fromBuffer(i, r);
+  TextToUpperCaseRequest.fromJson(String i, [ExtensionRegistry r = ExtensionRegistry.EMPTY]) : super.fromJson(i, r);
+  TextToUpperCaseRequest clone() => new TextToUpperCaseRequest()..mergeFromMessage(this);
   BuilderInfo get info_ => _i;
 
   String get text => getField(1);
@@ -23,15 +23,15 @@ class TextToUppercaseRequest extends GeneratedMessage {
   void clearText() => clearField(1);
 }
 
-class UppercaseText extends GeneratedMessage {
-  static final BuilderInfo _i = new BuilderInfo('UppercaseText')
+class UpperCaseText extends GeneratedMessage {
+  static final BuilderInfo _i = new BuilderInfo('UpperCaseText')
     ..a(1, 'text', GeneratedMessage.QS)
   ;
 
-  UppercaseText() : super();
-  UppercaseText.fromBuffer(List<int> i, [ExtensionRegistry r = ExtensionRegistry.EMPTY]) : super.fromBuffer(i, r);
-  UppercaseText.fromJson(String i, [ExtensionRegistry r = ExtensionRegistry.EMPTY]) : super.fromJson(i, r);
-  UppercaseText clone() => new UppercaseText()..mergeFromMessage(this);
+  UpperCaseText() : super();
+  UpperCaseText.fromBuffer(List<int> i, [ExtensionRegistry r = ExtensionRegistry.EMPTY]) : super.fromBuffer(i, r);
+  UpperCaseText.fromJson(String i, [ExtensionRegistry r = ExtensionRegistry.EMPTY]) : super.fromJson(i, r);
+  UpperCaseText clone() => new UpperCaseText()..mergeFromMessage(this);
   BuilderInfo get info_ => _i;
 
   String get text => getField(1);
